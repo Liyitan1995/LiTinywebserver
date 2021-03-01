@@ -2,8 +2,7 @@
 
 TinyWebServer
 ===============
-Linux下C++轻量级Web服务器，助力初学者快速实践网络编程，搭建属于自己的服务器.
-代码参考自WebServer，加了自己的注释与改动
+Linux下C++轻量级Web服务器，代码参考自WebServer，加了自己的注释与改动（已注明在程序中，并加入与改动之前的测试对比）
 
 * 使用 **线程池 + 非阻塞socket + epoll(ET和LT均实现) + 事件处理(Reactor和模拟Proactor均实现)** 的并发模型
 * 使用**状态机**解析HTTP请求报文，支持解析**GET和POST**请求
